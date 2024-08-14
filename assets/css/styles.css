@@ -1,0 +1,718 @@
+body {
+    font-family: Dana;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    direction: ltr;
+    margin-top: 45px;
+    margin-left: 45px;
+    text-align: left;
+}
+
+.nav {
+    text-align: left;
+    background-color: white;
+    padding: 17px 5px;
+    border-radius: 20px 20px 0 0;
+    display: inline-block;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.li {
+    margin: 5px;
+}
+
+.a {
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.a:hover {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    border-radius: 0 20px 20px 20px;
+    margin: 0 45px;
+    height: 750px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    width: 2000px;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.div-side-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    width: 770px;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.aside-resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.card div img {
+    height: 190px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.card div h1 {
+    color: grey;
+    font-family: DanaBold;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card div small {
+    color: rgb(89, 89, 89);
+    background-color: rgb(198, 198, 198);
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.div-main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* Prevent horizontal overflow */
+}
+
+.title {
+    font-family: DanaBold;
+    display: flex;
+    flex-direction: column;
+}
+
+.title img {
+    height: 20px;
+    width: fit-content;
+}
+
+.title h1 {
+    text-align: right;
+}
+
+.paragraph {
+    margin: 10px 0;
+    text-align: right;
+    font-size: 20px;
+    max-width: 100%;
+    /* Ensure the paragraph doesn't exceed its parent width */
+    overflow-wrap: break-word;
+    /* Break long words if necessary */
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #57dbff;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    width: 500px;
+}
+
+.box-item img {
+    height: 90px;
+    margin: 5px;
+}
+
+.box-item h3 {
+    margin: 5px;
+}
+
+.box-item p {
+    margin: 5px;
+}
+
+.form-submit {
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    font-family: DanaBold;
+    border: solid 1px grey;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 0px !important;
+    margin-right: 10px !important;
+    width: 98%;
+}
+
+button {
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    font-family: DanaBold;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 50px;
+    text-align: center;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    border: 0;
+}
+
+.img-div {
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+    max-width: 100%;
+    /* Ensure the paragraph doesn't exceed its parent width */
+}
+
+.button-a {
+    padding: 20px;
+}
+
+.img {
+    height: 250px;
+    width: 500px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.form-inputs {
+    padding: 10px;
+    border-radius: 6px;
+    width: 46.2%;
+    border: solid 1px grey;
+    margin: 10px;
+}
+
+.form-inputs-textarea {
+    padding: 10px;
+    border-radius: 6px;
+    width: 96%;
+    border: solid 1px grey;
+    margin: 10px;
+}
+
+.form-inputs::placeholder {
+    font-family: dana;
+}
+
+.form-inputs-textarea::placeholder {
+    font-family: dana;
+}
+
+input[type="text"] {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.BTNNNNN {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    main {
+        height: 670px !important;
+    }
+    aside {
+        width: 25%;
+    }
+    .div-side-works {
+        width: 25%;
+    }
+    .aside-resume {
+        width: 25%;
+    }
+    .card img {
+        height: 120px !important;
+    }
+    .card small {
+        font-size: 10px;
+        padding: 2px 5px 2px 5px !important;
+    }
+    .button-btn {
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        font-size: 6px;
+        padding: 10px 0px 10px 0px !important;
+        color: black;
+        font-family: DanaBold;
+        border: solid 1px black;
+        border-radius: 20px;
+        background-color: transparent;
+        margin-top: 20px;
+    }
+    .paragraph p {
+        font-size: 15px !important;
+    }
+    .div-main {
+        width: 75%;
+    }
+    .box-item {
+        width: 35%;
+    }
+    .title-blog img {
+        height: 25px !important;
+        width: fit-content;
+    }
+    .title-blog h1 {
+        font-size: 25px;
+        font-family: DanaBold;
+        text-align: right;
+    }
+    .paragraph-blog p {
+        font-size: 25px;
+    }
+    .form-inputs {
+        padding: 10px;
+        border-radius: 6px;
+        width: 40% !important;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs-textarea {
+        padding: 10px;
+        border-radius: 6px;
+        width: 90% !important;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs::placeholder {
+        font-family: dana;
+    }
+    .form-inputs-textarea::placeholder {
+        font-family: dana;
+    }
+    input[type="text"] {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .img {
+        height: 200px;
+        width: 400px;
+        border: solid black 1px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .form-submit {
+        width: 96% !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        height: 670px !important;
+    }
+    aside {
+        width: 25%;
+    }
+    .div-side-works {
+        width: 25%;
+    }
+    .aside-resume {
+        width: 25%;
+    }
+    .paragraph p {
+        font-size: 12px !important;
+    }
+    .button-btn {
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        font-size: 11px;
+        padding: 10px 0px 10px 0px !important;
+        color: black;
+        font-family: DanaBold;
+        border: solid 1px black;
+        border-radius: 20px;
+        background-color: transparent;
+        margin-top: 20px;
+    }
+    .div-main {
+        width: 75%;
+    }
+    .box-item {
+        width: 40%;
+    }
+    .img {
+        height: 300px;
+        width: 600px;
+    }
+    .title-blog img {
+        height: 25px !important;
+    }
+    .title-blog h1 {
+        font-size: 25px;
+        font-family: DanaBold;
+        text-align: right;
+    }
+    .paragraph-blog p {
+        font-size: 25px;
+    }
+    .card img {
+        height: 200px !important;
+    }
+    .card h1 {
+        font-size: 30px !important;
+    }
+    .card small {
+        font-size: 15px !important;
+        padding: 2px 8px 2px 8px !important;
+    }
+    .form-inputs {
+        padding: 10px;
+        border-radius: 6px;
+        width: 43% !important;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs-textarea {
+        padding: 10px;
+        border-radius: 6px;
+        width: 93% !important;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs::placeholder {
+        font-family: dana;
+    }
+    .form-inputs-textarea::placeholder {
+        font-family: dana;
+    }
+    input[type="text"] {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .form-submit {
+        width: 97% !important;
+    }
+}
+
+@media (min-width: 1440px) {
+    main {
+        height: 670px !important;
+    }
+    aside {
+        width: 25%;
+    }
+    .div-side-works {
+        width: 25%;
+    }
+    .aside-resume {
+        width: 25%;
+    }
+    .paragraph p {
+        font-size: 17px !important;
+    }
+    .BTNNNNN {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .button-btn {
+        display: block;
+        font-size: 16px;
+        padding: 10px 0px 10px 0px !important;
+        text-align: center;
+        color: black;
+        font-family: DanaBold;
+        border: solid 1px black;
+        border-radius: 20px;
+        background-color: transparent;
+        margin-top: 20px;
+    }
+    .title div img {
+        height: 25px !important;
+    }
+    .div-main {
+        width: 75%;
+    }
+    .box-item {
+        width: 40%;
+    }
+    .img {
+        height: 400px;
+        width: 800px;
+    }
+    .title-blog img {
+        height: 25px !important;
+        width: fit-content;
+    }
+    .title-blog h1 {
+        font-size: 25px;
+        font-family: DanaBold;
+        text-align: right;
+    }
+    .paragraph-blog p {
+        font-size: 25px;
+    }
+    .form-inputs {
+        padding: 10px;
+        border-radius: 6px;
+        width: 44% !important;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs-textarea {
+        padding: 10px;
+        border-radius: 6px;
+        width: 93% !important;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs::placeholder {
+        font-family: dana;
+    }
+    .form-inputs-textarea::placeholder {
+        font-family: dana;
+    }
+    input[type="text"] {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .card img {
+        height: 200px !important;
+    }
+    .card h1 {
+        font-size: 30px !important;
+    }
+    .card small {
+        font-size: 17px;
+        padding: 2px 10px 2px 10px !important;
+    }
+    .form-submit {
+        width: 96% !important;
+    }
+}
+
+@media (min-width: 1920px) {
+    main {
+        height: 720px !important;
+    }
+    aside {
+        width: 25%;
+    }
+    .div-side-works {
+        width: 25%;
+    }
+    .aside-resume {
+        width: 25%;
+    }
+    .div-main {
+        width: 75%;
+    }
+    .box-item {
+        width: 40%;
+    }
+    .img {
+        height: 275px;
+        width: 550px;
+    }
+    .title-blog img {
+        height: 20px;
+        width: fit-content;
+    }
+    .title-blog h1 {
+        text-align: right;
+    }
+    .paragraph-blog {
+        margin: 10px 0;
+        text-align: right;
+        font-size: 20px;
+        max-width: 100%;
+        /* Ensure the paragraph doesn't exceed its parent width */
+        overflow-wrap: break-word;
+        /* Break long words if necessary */
+    }
+    .form-inputs {
+        padding: 10px;
+        border-radius: 6px;
+        width: 46.2% !important;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs-textarea {
+        padding: 10px;
+        border-radius: 6px;
+        width: 96% !important;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs::placeholder {
+        font-family: dana;
+    }
+    .form-inputs-textarea::placeholder {
+        font-family: dana;
+    }
+    input[type="text"] {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .card img {
+        height: 200px !important;
+    }
+    .card h1 {
+        font-size: 30px !important;
+    }
+    .card small {
+        font-size: 17px;
+        padding: 2px 10px 2px 10px !important;
+    }
+    .form-submit {
+        width: 98% !important;
+    }
+}
+
+@media (min-width: 2560px) {
+    main {
+        height: 1000px !important;
+    }
+    aside {
+        width: 25%;
+    }
+    .div-side-works {
+        width: 25%;
+    }
+    .aside-resume small {
+        padding: 10px 15px 10px 15px;
+    }
+    .div-main {
+        width: 75%;
+    }
+    .box-item {
+        width: 40%;
+        height: 80%;
+    }
+    .img {
+        height: 400px;
+        width: 800px;
+    }
+    .title-blog img {
+        height: 25px !important;
+        width: fit-content;
+    }
+    .title-blog h1 {
+        font-size: 25px;
+        font-family: DanaBold;
+        text-align: right;
+    }
+    .paragraph-blog p {
+        font-size: 35px;
+    }
+    .form-inputs {
+        padding: 10px;
+        border-radius: 6px;
+        width: 46.2%;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs-textarea {
+        padding: 10px;
+        border-radius: 6px;
+        width: 95% !important;
+        border: solid 1px grey;
+        margin: 10px;
+    }
+    .form-inputs::placeholder {
+        font-family: dana;
+    }
+    .form-inputs-textarea::placeholder {
+        font-family: dana;
+    }
+    input[type="text"] {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .card img {
+        height: 300px !important;
+    }
+    .card h1 {
+        font-size: 30px !important;
+    }
+    .card small {
+        font-size: 20px !important;
+        padding: 4px 15px 4px 15px !important;
+    }
+    .form-submit {
+        width: 96.5% !important;
+    }
+}

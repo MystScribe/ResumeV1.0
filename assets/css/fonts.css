@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Dana';
+    src: url(../Webfont/dana/dana-regular.woff2);
+}
+
+@font-face {
+    font-family: 'DanaBold';
+    src: url(../Webfont/dana/dana-bold.woff2);
+}
